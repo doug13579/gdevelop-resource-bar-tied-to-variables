@@ -181,6 +181,33 @@
         "name": "assets\\NewSprite5 - Copy.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -215,7 +242,19 @@
         "zoomFactor": 0.4789341884535245,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Up2Down2Group",
+          "objects": [
+            {
+              "name": "Up2"
+            },
+            {
+              "name": "Down2"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "folded": true,
@@ -397,8 +436,8 @@
           "name": "UpButton",
           "persistentUuid": "1af5260e-57fe-415a-8f32-c63885bd6819",
           "width": 0,
-          "x": 321,
-          "y": 115,
+          "x": 258,
+          "y": 117,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -412,8 +451,8 @@
           "name": "UpButton",
           "persistentUuid": "6b3ba1de-e9d1-4db2-a878-93884ec1a402",
           "width": 0,
-          "x": 321,
-          "y": 272,
+          "x": 273,
+          "y": 274,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -427,8 +466,8 @@
           "name": "DownButton",
           "persistentUuid": "1f15e0de-5616-4dd4-adbc-9742354a45b5",
           "width": 0,
-          "x": 634,
-          "y": 117,
+          "x": 363,
+          "y": 115,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -442,8 +481,8 @@
           "name": "DownButton",
           "persistentUuid": "c0145540-5850-4e3e-9b93-965a3295d54f",
           "width": 0,
-          "x": 639,
-          "y": 257,
+          "x": 376,
+          "y": 270,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -463,6 +502,118 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Up2",
+          "persistentUuid": "1fd3eb57-79e6-4c80-b1fa-0cd03de83030",
+          "width": 0,
+          "x": 579,
+          "y": 110,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "To",
+              "type": "string",
+              "value": "Maximum"
+            },
+            {
+              "folded": true,
+              "name": "From",
+              "type": "string",
+              "value": "Minimum"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Up2",
+          "persistentUuid": "746b6932-ac9f-4653-97bc-2f22493560f4",
+          "width": 0,
+          "x": 591,
+          "y": 266,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "To",
+              "type": "string",
+              "value": "Minimum"
+            },
+            {
+              "folded": true,
+              "name": "From",
+              "type": "string",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Down2",
+          "persistentUuid": "66231dd2-036a-46a7-99d2-a3b3c43d99b5",
+          "width": 0,
+          "x": 754,
+          "y": 104,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "To",
+              "type": "string",
+              "value": "Minimum"
+            },
+            {
+              "folded": true,
+              "name": "From",
+              "type": "string",
+              "value": "Maximum"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Down2",
+          "persistentUuid": "dc0c4443-1d7e-432f-8bc2-9a64a8c2e703",
+          "width": 0,
+          "x": 754,
+          "y": 275,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "To",
+              "type": "string",
+              "value": "Power"
+            },
+            {
+              "folded": true,
+              "name": "From",
+              "type": "string",
+              "value": "Minimum"
+            }
+          ]
         }
       ],
       "objects": [
@@ -882,6 +1033,154 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Up2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "To",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "From",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 5
+                          },
+                          {
+                            "x": 60,
+                            "y": 5
+                          },
+                          {
+                            "x": 60,
+                            "y": 59
+                          },
+                          {
+                            "x": 3,
+                            "y": 59
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Down2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "To",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "From",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 6
+                          },
+                          {
+                            "x": 61,
+                            "y": 6
+                          },
+                          {
+                            "x": 61,
+                            "y": 63
+                          },
+                          {
+                            "x": 3,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -907,6 +1206,12 @@
           },
           {
             "objectName": "DownButton"
+          },
+          {
+            "objectName": "Up2"
+          },
+          {
+            "objectName": "Down2"
           }
         ]
       },
@@ -943,71 +1248,115 @@
           "actions": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "UpButton",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PickNearest"
-              },
-              "parameters": [
-                "UpButton",
-                "CursorX()",
-                "CursorY()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "up down using ray cast #1",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "Raycast"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "GreenDotBar",
-                    "UpButton.CenterX()",
-                    "UpButton.CenterY()",
-                    "90",
-                    "200",
+                    "UpButton",
                     "",
                     "",
                     ""
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                    "value": "PickNearest"
                   },
                   "parameters": [
-                    "GreenDotBar",
-                    "-",
-                    "10",
+                    "UpButton",
+                    "CursorX()",
+                    "CursorY()",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Raycast"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "UpButton.CenterX()",
+                        "UpButton.CenterY()",
+                        "90",
+                        "200",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "-",
+                        "10",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Raycast"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "UpButton.CenterX()",
+                        "UpButton.CenterY()",
+                        "270",
+                        "200",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "+",
+                        "10",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1017,160 +1366,234 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "Raycast"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "GreenDotBar",
-                    "UpButton.CenterX()",
-                    "UpButton.CenterY()",
-                    "270",
-                    "200",
+                    "DownButton",
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "UpButton",
+                    "CursorX()",
+                    "CursorY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                  },
-                  "parameters": [
-                    "GreenDotBar",
-                    "+",
-                    "10",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Raycast"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "UpButton.CenterX()",
+                        "UpButton.CenterY()",
+                        "90",
+                        "200",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "+",
+                        "10",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Raycast"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "UpButton.CenterX()",
+                        "UpButton.CenterY()",
+                        "270",
+                        "200",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "-",
+                        "10",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "DownButton",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PickNearest"
-              },
-              "parameters": [
-                "UpButton",
-                "CursorX()",
-                "CursorY()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [],
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Up Down using object Variables #2",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "Raycast"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "GreenDotBar",
-                    "UpButton.CenterX()",
-                    "UpButton.CenterY()",
-                    "90",
-                    "200",
+                    "Up2Down2Group",
                     "",
                     "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Up2Down2Group",
+                    "CursorX()",
+                    "CursorY()",
                     ""
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "GreenDotBar",
-                    "+",
-                    "10",
-                    ""
+                  "comment": "To change the structure it would be  (  Change the scene variable Data[GreenDotBar.Name] add or subtract value  )"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "Name",
+                        "=",
+                        "Up2Down2Group.From"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "-",
+                        "10",
+                        ""
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
-                  "type": {
-                    "value": "Raycast"
-                  },
-                  "parameters": [
-                    "GreenDotBar",
-                    "UpButton.CenterX()",
-                    "UpButton.CenterY()",
-                    "270",
-                    "200",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                  },
-                  "parameters": [
-                    "GreenDotBar",
-                    "-",
-                    "10",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "Name",
+                        "=",
+                        "Up2Down2Group.To"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "+",
+                        "10",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
